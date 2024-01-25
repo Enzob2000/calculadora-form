@@ -32,13 +32,10 @@
             bindingSource1 = new BindingSource(components);
             menuStrip1 = new MenuStrip();
             opcionesToolStripMenuItem = new ToolStripMenuItem();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
-            // 
-            // bindingSource1
-            // 
-            
             // 
             // menuStrip1
             // 
@@ -49,7 +46,6 @@
             menuStrip1.Size = new Size(800, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
-       
             menuStrip1.MouseDown += menuStrip1_MouseDown;
             // 
             // opcionesToolStripMenuItem
@@ -58,16 +54,25 @@
             opcionesToolStripMenuItem.Size = new Size(83, 24);
             opcionesToolStripMenuItem.Text = "opciones";
             // 
+            // panel1
+            // 
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(433, 438);
+            panel1.TabIndex = 1;
+            panel1.Paint += panel1_Paint;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
-           
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
@@ -79,5 +84,7 @@
         private BindingSource bindingSource1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem opcionesToolStripMenuItem;
+        private PictureBox pictureBox1;
+        private Panel panel1;
     }
 }

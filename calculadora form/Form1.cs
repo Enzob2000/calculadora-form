@@ -46,6 +46,7 @@ namespace calculadora_form
         public Form1()
         {
             InitializeComponent();
+            Size = new Size(430, 300);
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 50, 50));
 
@@ -194,12 +195,22 @@ namespace calculadora_form
             }
         }
 
-  
+
         private void menuStrip1_MouseDown(object sender, MouseEventArgs e)
         {
             SendMessage(this.Handle, 0x112, 0xf012, 0);
             w = this.Width;
             h = this.Height;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }
