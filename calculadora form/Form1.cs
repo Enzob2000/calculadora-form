@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices;
+using System.Data;
 
 
 namespace calculadora_form
@@ -32,7 +33,7 @@ namespace calculadora_form
         private int borderRadius = 20;
         private int borderSize = 2;
         private Color borderColor = Color.FromArgb(128, 128, 255);
-        
+
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -93,13 +94,90 @@ namespace calculadora_form
 
         private void rjButton8_Click(object sender, EventArgs e)
         {
-            
+
             if (textBox1.Text.Length > 0)
             {
                 textBox1.Text = textBox1.Text.Substring(0, textBox1.TextLength - 1);
             }
-            
 
+
+        }
+
+        private void rjButton17_Click(object sender, EventArgs e)
+        {
+            tex("3");
+        }
+
+        private void rjButton15_Click(object sender, EventArgs e)
+        {
+            tex("4");
+        }
+
+        private void rjButton16_Click(object sender, EventArgs e)
+        {
+            tex("5");
+        }
+
+        private void rjButton20_Click(object sender, EventArgs e)
+        {
+            tex("6");
+        }
+
+        private void rjButton3_Click(object sender, EventArgs e)
+        {
+            tex("7");
+        }
+
+        private void rjButton13_Click(object sender, EventArgs e)
+        {
+            tex("8");
+        }
+
+        private void rjButton14_Click(object sender, EventArgs e)
+        {
+            tex("9");
+        }
+
+        private void rjButton22_Click(object sender, EventArgs e)
+        {
+            tex(".");
+        }
+
+        private void rjButton25_Click(object sender, EventArgs e)
+        {
+            tex("+");
+        }
+
+        private void rjButton21_Click(object sender, EventArgs e)
+        {
+            tex("0");
+        }
+
+        private void rjButton24_Click(object sender, EventArgs e)
+        {
+            tex("-");
+        }
+
+        private void rjButton23_Click(object sender, EventArgs e)
+        {
+            tex("*");
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+            tex("/");
+        }
+
+        private void rjButton29_Click(object sender, EventArgs e)
+        {
+            DataTable table = new DataTable();
+            var result = table.Compute(textBox1.Text, null);
+            textBox1.Text = result.ToString();
+        }
+
+        private void rjButton10_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
         }
     }
     public class RJButton : Button

@@ -147,6 +147,7 @@
             rjButton29.Text = "=";
             rjButton29.TextColor = Color.WhiteSmoke;
             rjButton29.UseVisualStyleBackColor = false;
+            rjButton29.Click += rjButton29_Click;
             // 
             // rjButton27
             // 
@@ -207,6 +208,7 @@
             rjButton25.Text = "+";
             rjButton25.TextColor = Color.WhiteSmoke;
             rjButton25.UseVisualStyleBackColor = false;
+            rjButton25.Click += rjButton25_Click;
             // 
             // rjButton24
             // 
@@ -227,6 +229,7 @@
             rjButton24.Text = "-";
             rjButton24.TextColor = Color.WhiteSmoke;
             rjButton24.UseVisualStyleBackColor = false;
+            rjButton24.Click += rjButton24_Click;
             // 
             // rjButton23
             // 
@@ -247,6 +250,7 @@
             rjButton23.Text = "*";
             rjButton23.TextColor = Color.WhiteSmoke;
             rjButton23.UseVisualStyleBackColor = false;
+            rjButton23.Click += rjButton23_Click;
             // 
             // rjButton22
             // 
@@ -266,6 +270,7 @@
             rjButton22.Text = ".";
             rjButton22.TextColor = Color.WhiteSmoke;
             rjButton22.UseVisualStyleBackColor = false;
+            rjButton22.Click += rjButton22_Click;
             // 
             // rjButton2
             // 
@@ -286,6 +291,7 @@
             rjButton2.Text = "/";
             rjButton2.TextColor = Color.WhiteSmoke;
             rjButton2.UseVisualStyleBackColor = false;
+            rjButton2.Click += rjButton2_Click;
             // 
             // rjButton21
             // 
@@ -305,6 +311,7 @@
             rjButton21.Text = "0";
             rjButton21.TextColor = Color.WhiteSmoke;
             rjButton21.UseVisualStyleBackColor = false;
+            rjButton21.Click += rjButton21_Click;
             // 
             // rjButton20
             // 
@@ -324,6 +331,7 @@
             rjButton20.Text = "6";
             rjButton20.TextColor = Color.WhiteSmoke;
             rjButton20.UseVisualStyleBackColor = false;
+            rjButton20.Click += rjButton20_Click;
             // 
             // rjButton19
             // 
@@ -383,6 +391,7 @@
             rjButton17.Text = "3";
             rjButton17.TextColor = Color.WhiteSmoke;
             rjButton17.UseVisualStyleBackColor = false;
+            rjButton17.Click += rjButton17_Click;
             // 
             // rjButton16
             // 
@@ -402,6 +411,7 @@
             rjButton16.Text = "5";
             rjButton16.TextColor = Color.WhiteSmoke;
             rjButton16.UseVisualStyleBackColor = false;
+            rjButton16.Click += rjButton16_Click;
             // 
             // rjButton15
             // 
@@ -421,6 +431,7 @@
             rjButton15.Text = "4";
             rjButton15.TextColor = Color.WhiteSmoke;
             rjButton15.UseVisualStyleBackColor = false;
+            rjButton15.Click += rjButton15_Click;
             // 
             // rjButton14
             // 
@@ -440,6 +451,7 @@
             rjButton14.Text = "9";
             rjButton14.TextColor = Color.WhiteSmoke;
             rjButton14.UseVisualStyleBackColor = false;
+            rjButton14.Click += rjButton14_Click;
             // 
             // rjButton13
             // 
@@ -459,6 +471,7 @@
             rjButton13.Text = "8";
             rjButton13.TextColor = Color.WhiteSmoke;
             rjButton13.UseVisualStyleBackColor = false;
+            rjButton13.Click += rjButton13_Click;
             // 
             // rjButton3
             // 
@@ -478,6 +491,7 @@
             rjButton3.Text = "7";
             rjButton3.TextColor = Color.WhiteSmoke;
             rjButton3.UseVisualStyleBackColor = false;
+            rjButton3.Click += rjButton3_Click;
             // 
             // rjButton12
             // 
@@ -535,6 +549,7 @@
             rjButton10.Text = "C";
             rjButton10.TextColor = Color.Black;
             rjButton10.UseVisualStyleBackColor = false;
+            rjButton10.Click += rjButton10_Click;
             // 
             // rjButton9
             // 
@@ -682,7 +697,6 @@
             textBox1.Size = new Size(459, 63);
             textBox1.TabIndex = 1;
             textBox1.TextAlign = HorizontalAlignment.Right;
-            
             textBox1.KeyPress += textBox1_KeyPress;
             // 
             // menuStrip2
