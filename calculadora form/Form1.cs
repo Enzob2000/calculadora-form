@@ -90,6 +90,8 @@ namespace calculadora_form
             e.Handled = true;
         }
 
+
+
         private void rjButton18_Click(object sender, EventArgs e)
         {
             tex1("1");
@@ -188,7 +190,95 @@ namespace calculadora_form
             textBox1.Text = "";
         }
 
-        
+
+
+        private void rjButton65_Click(object sender, EventArgs e)
+        {
+            tex2("1");
+        }
+
+        private void rjButton69_Click(object sender, EventArgs e)
+        {
+            tex2("2");
+        }
+
+        private void rjButton72_Click(object sender, EventArgs e)
+        {
+            tex2("3");
+        }
+
+        private void rjButton66_Click(object sender, EventArgs e)
+        {
+            tex2("0");
+        }
+
+        private void rjButton73_Click(object sender, EventArgs e)
+        {
+            tex2(".");
+        }
+
+        private void rjButton77_Click(object sender, EventArgs e)
+        {
+            tex2("+");
+        }
+
+        private void rjButton76_Click(object sender, EventArgs e)
+        {
+            tex2("-");
+        }
+
+        private void rjButton64_Click(object sender, EventArgs e)
+        {
+            tex2("4");
+        }
+
+        private void rjButton68_Click(object sender, EventArgs e)
+        {
+            tex2("5");
+        }
+
+        private void rjButton71_Click(object sender, EventArgs e)
+        {
+            tex2("6");
+        }
+
+        private void rjButton75_Click(object sender, EventArgs e)
+        {
+            tex2("*");
+        }
+
+        private void rjButton63_Click(object sender, EventArgs e)
+        {
+            tex2("7");
+        }
+
+        private void rjButton67_Click(object sender, EventArgs e)
+        {
+            tex2("8");
+        }
+
+        private void rjButton70_Click(object sender, EventArgs e)
+        {
+            tex2("9");
+        }
+
+        private void rjButton74_Click(object sender, EventArgs e)
+        {
+            tex2("/");
+        }
+
+        private void rjButton58_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length > 0)
+            {
+                textBox2.Text = textBox2.Text.Substring(0, textBox2.TextLength - 1);
+            }
+        }
+
+        private void rjButton60_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "";
+        }
     }
     public class RJButton : Button
     {
