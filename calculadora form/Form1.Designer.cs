@@ -30,8 +30,6 @@
         {
             components = new System.ComponentModel.Container();
             bindingSource1 = new BindingSource(components);
-            menuStrip1 = new MenuStrip();
-            opcionesToolStripMenuItem = new ToolStripMenuItem();
             panel1 = new Panel();
             rjButton29 = new RJButton();
             rjButton27 = new RJButton();
@@ -131,29 +129,12 @@
             toolStripMenuItem3 = new ToolStripMenuItem();
             toolStripMenuItem4 = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
-            menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             menuStrip2.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             menuStrip3.SuspendLayout();
             SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { opcionesToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1724, 28);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // opcionesToolStripMenuItem
-            // 
-            opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
-            opcionesToolStripMenuItem.Size = new Size(83, 24);
-            opcionesToolStripMenuItem.Text = "opciones";
             // 
             // panel1
             // 
@@ -802,6 +783,7 @@
             cientificaToolStripMenuItem.Name = "cientificaToolStripMenuItem";
             cientificaToolStripMenuItem.Size = new Size(207, 28);
             cientificaToolStripMenuItem.Text = "Cientifica";
+            cientificaToolStripMenuItem.Click += cientificaToolStripMenuItem_Click;
             // 
             // programableToolStripMenuItem
             // 
@@ -869,10 +851,11 @@
             panel2.Controls.Add(rjButton28);
             panel2.Controls.Add(textBox2);
             panel2.Controls.Add(menuStrip3);
-            panel2.Location = new Point(550, 31);
+            panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(1046, 648);
             panel2.TabIndex = 2;
+            panel2.Paint += panel2_Paint;
             // 
             // rjButton80
             // 
@@ -893,6 +876,7 @@
             rjButton80.Text = "=";
             rjButton80.TextColor = Color.WhiteSmoke;
             rjButton80.UseVisualStyleBackColor = false;
+            rjButton80.Click += rjButton80_Click;
             // 
             // rjButton79
             // 
@@ -1948,6 +1932,8 @@
             textBox2.Size = new Size(924, 63);
             textBox2.TabIndex = 29;
             textBox2.TextAlign = HorizontalAlignment.Right;
+            textBox2.TextChanged += textBox2_TextChanged;
+            textBox2.KeyPress += textBox2_KeyPress;
             // 
             // menuStrip3
             // 
@@ -1959,6 +1945,7 @@
             menuStrip3.Size = new Size(1042, 31);
             menuStrip3.TabIndex = 42;
             menuStrip3.Text = "menuStrip3";
+            menuStrip3.MouseDown += menuStrip3_MouseDown_1;
             // 
             // toolStripMenuItem1
             // 
@@ -1976,21 +1963,22 @@
             toolStripMenuItem2.DisplayStyle = ToolStripItemDisplayStyle.Text;
             toolStripMenuItem2.ForeColor = Color.Black;
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(207, 28);
+            toolStripMenuItem2.Size = new Size(224, 28);
             toolStripMenuItem2.Text = "standar";
+            toolStripMenuItem2.Click += toolStripMenuItem2_Click;
             // 
             // toolStripMenuItem3
             // 
             toolStripMenuItem3.BackColor = Color.Orange;
             toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(207, 28);
+            toolStripMenuItem3.Size = new Size(224, 28);
             toolStripMenuItem3.Text = "Cientifica";
             // 
             // toolStripMenuItem4
             // 
             toolStripMenuItem4.BackColor = Color.Orange;
             toolStripMenuItem4.Name = "toolStripMenuItem4";
-            toolStripMenuItem4.Size = new Size(207, 28);
+            toolStripMenuItem4.Size = new Size(224, 28);
             toolStripMenuItem4.Text = "Programable";
             // 
             // Form1
@@ -2000,15 +1988,12 @@
             ClientSize = new Size(1724, 721);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(menuStrip1);
             ForeColor = Color.White;
             Location = new Point(590, 0);
-            MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             menuStrip2.ResumeLayout(false);
@@ -2020,13 +2005,10 @@
             menuStrip3.ResumeLayout(false);
             menuStrip3.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
         private BindingSource bindingSource1;
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem opcionesToolStripMenuItem;
         private PictureBox pictureBox1;
         private Panel panel1;
         private MenuStrip menuStrip2;

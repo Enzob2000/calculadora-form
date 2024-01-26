@@ -48,10 +48,13 @@ namespace calculadora_form
         public Form1()
         {
             InitializeComponent();
-            Size = new Size(511, 595);
+            panel1.Visible = true;
+            panel2.Visible = false;
+
             this.FormBorderStyle = FormBorderStyle.None;
+
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
-            textBox1.MaxLength = 3;
+
 
 
 
@@ -78,7 +81,7 @@ namespace calculadora_form
         }
         public void tex2(string tex)
         {
-            if (textBox2.Text.Length < 16)
+            if (textBox2.Text.Length < 35)
             {
                 textBox2.Text = textBox2.Text + tex;
             }
@@ -94,7 +97,10 @@ namespace calculadora_form
 
         private void rjButton18_Click(object sender, EventArgs e)
         {
+
+
             tex1("1");
+            Size = new Size(900, 200);
         }
 
         private void rjButton19_Click(object sender, EventArgs e)
@@ -195,6 +201,7 @@ namespace calculadora_form
         private void rjButton65_Click(object sender, EventArgs e)
         {
             tex2("1");
+
         }
 
         private void rjButton69_Click(object sender, EventArgs e)
@@ -278,6 +285,66 @@ namespace calculadora_form
         private void rjButton60_Click(object sender, EventArgs e)
         {
             textBox2.Text = "";
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void cientificaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            Size = new Size(980, 590);
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
+            panel1.Visible = false;
+            textBox2.Text = textBox1.Text;
+
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            Size = new Size(510, 563);
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
+        }
+
+
+
+        private void menuStrip3_MouseDown_1(object sender, MouseEventArgs e)
+        {
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+            w = this.Width;
+            h = this.Height;
+        }
+
+        private void rjButton80_Click(object sender, EventArgs e)
+        {
+            DataTable table = new DataTable();
+            var result = table.Compute(textBox2.Text, null);
+            textBox2.Text = result.ToString();
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            Size = new Size(510, 563);
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
+            panel2.Visible = false;
+            textBox1.Text = textBox2.Text;
         }
     }
     public class RJButton : Button
