@@ -370,7 +370,7 @@ namespace calculadora_form
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
             panel1.Visible = false;
             panel2.Visible = false;
-            textBox2.Text = textBox1.Text;
+            textBox3.Text = textBox1.Text;
         }
 
         private void toolStripMenuItem4_Click(object sender, EventArgs e)
@@ -381,7 +381,7 @@ namespace calculadora_form
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
             panel1.Visible = false;
             panel2.Visible = false;
-            textBox2.Text = textBox1.Text;
+            textBox3.Text = textBox2.Text;
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
@@ -486,13 +486,13 @@ namespace calculadora_form
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
-            rjButton101.Enabled = true;
-            rjButton102.Enabled = true;
-            rjButton103.Enabled = true;
-            rjButton104.Enabled = true;
-            rjButton108.Enabled = true;
-            rjButton110.Enabled = true;
-            rjButton115.Enabled = true;
+            rjButton101.Enabled = false;
+            rjButton102.Enabled = false;
+            rjButton103.Enabled = false;
+            rjButton104.Enabled = false;
+            rjButton108.Enabled = false;
+            rjButton110.Enabled = false;
+            rjButton115.Enabled = false;
         }
 
         private void rjButton101_Click(object sender, EventArgs e)
@@ -527,18 +527,42 @@ namespace calculadora_form
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
-            rjButton101.Enabled = true;
-            rjButton102.Enabled = true;
-            rjButton103.Enabled = true;
-            rjButton104.Enabled = true;
-            rjButton108.Enabled = true;
-            rjButton110.Enabled = true;
-            rjButton115.Enabled = true;
-            rjButton112.Enabled = true;
-            rjButton89.Enabled = true;
+            rjButton101.Enabled = false;
+            rjButton102.Enabled = false;
+            rjButton103.Enabled = false;
+            rjButton104.Enabled = false;
+            rjButton108.Enabled = false;
+            rjButton110.Enabled = false;
+            rjButton115.Enabled = false;
+            rjButton112.Enabled = false;
+            rjButton89.Enabled = false;
         }
 
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            rjButton101.Enabled = false;
+            rjButton102.Enabled = false;
+            rjButton103.Enabled = false;
+            rjButton104.Enabled = false;
+            rjButton108.Enabled = false;
+            rjButton110.Enabled = false;
+            rjButton115.Enabled = false;
+            rjButton112.Enabled = false;
+            rjButton89.Enabled = false;
+            rjButton83.Enabled = false;
+            rjButton113.Enabled = false;
+            rjButton84.Enabled = false;
+            rjButton90.Enabled = false;
+            rjButton91.Enabled = false;
+            rjButton114.Enabled = false;
+        }
+
+        private void rjButton114_Click(object sender, EventArgs e)
+        {
+            tex3("3");
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
             rjButton101.Enabled = true;
             rjButton102.Enabled = true;
@@ -557,28 +581,33 @@ namespace calculadora_form
             rjButton114.Enabled = true;
         }
 
-        private void rjButton114_Click(object sender, EventArgs e)
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
         {
-            tex3("3");
+            panel1.Visible = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            Size = new Size(510, 563);
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
+            panel2.Visible = false;
+            panel4.Visible = false;
+            textBox1.Text = textBox3.Text;
         }
 
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
         {
-            rjButton101.Enabled = false;
-            rjButton102.Enabled = false;
-            rjButton103.Enabled = false;
-            rjButton104.Enabled = false;
-            rjButton108.Enabled = false;
-            rjButton110.Enabled = false;
-            rjButton115.Enabled = false;
-            rjButton112.Enabled = false;
-            rjButton89.Enabled = false;
-            rjButton83.Enabled = false;
-            rjButton113.Enabled = false;
-            rjButton84.Enabled = false;
-            rjButton90.Enabled = false;
-            rjButton91.Enabled = false;
-            rjButton114.Enabled = false;
+            panel2.Visible = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            Size = new Size(980, 590);
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 60, 60));
+            panel1.Visible = false;
+            panel4.Visible = false;
+            textBox2.Text = textBox3.Text;
+        }
+
+        private void menuStrip1_MouseDown(object sender, MouseEventArgs e)
+        {
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+            w = this.Width;
+            h = this.Height;
         }
     }
     public class RJButton : Button

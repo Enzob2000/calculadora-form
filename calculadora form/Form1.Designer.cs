@@ -31,7 +31,42 @@
             components = new System.ComponentModel.Container();
             bindingSource1 = new BindingSource(components);
             panel1 = new Panel();
+            rjButton29 = new RJButton();
+            rjButton27 = new RJButton();
+            rjButton1 = new RJButton();
+            rjButton26 = new RJButton();
+            rjButton25 = new RJButton();
+            rjButton24 = new RJButton();
+            rjButton23 = new RJButton();
+            rjButton22 = new RJButton();
+            rjButton2 = new RJButton();
+            rjButton21 = new RJButton();
+            rjButton20 = new RJButton();
+            rjButton19 = new RJButton();
+            rjButton18 = new RJButton();
+            rjButton17 = new RJButton();
+            rjButton16 = new RJButton();
+            rjButton15 = new RJButton();
+            rjButton14 = new RJButton();
+            rjButton13 = new RJButton();
+            rjButton3 = new RJButton();
+            rjButton12 = new RJButton();
+            rjButton11 = new RJButton();
+            rjButton10 = new RJButton();
+            rjButton9 = new RJButton();
+            rjButton8 = new RJButton();
+            rjButton7 = new RJButton();
+            rjButton6 = new RJButton();
+            rjButton5 = new RJButton();
+            rjButton4 = new RJButton();
+            textBox1 = new TextBox();
+            menuStrip2 = new MenuStrip();
+            verToolStripMenuItem = new ToolStripMenuItem();
+            satToolStripMenuItem = new ToolStripMenuItem();
+            cientificaToolStripMenuItem = new ToolStripMenuItem();
+            programableToolStripMenuItem = new ToolStripMenuItem();
             panel2 = new Panel();
+            textBox2 = new TextBox();
             rjButton81 = new RJButton();
             rjButton80 = new RJButton();
             rjButton79 = new RJButton();
@@ -88,46 +123,11 @@
             rjButton32 = new RJButton();
             rjButton31 = new RJButton();
             rjButton28 = new RJButton();
-            textBox2 = new TextBox();
             menuStrip3 = new MenuStrip();
             toolStripMenuItem1 = new ToolStripMenuItem();
             toolStripMenuItem2 = new ToolStripMenuItem();
             toolStripMenuItem3 = new ToolStripMenuItem();
             toolStripMenuItem4 = new ToolStripMenuItem();
-            rjButton29 = new RJButton();
-            rjButton27 = new RJButton();
-            rjButton1 = new RJButton();
-            rjButton26 = new RJButton();
-            rjButton25 = new RJButton();
-            rjButton24 = new RJButton();
-            rjButton23 = new RJButton();
-            rjButton22 = new RJButton();
-            rjButton2 = new RJButton();
-            rjButton21 = new RJButton();
-            rjButton20 = new RJButton();
-            rjButton19 = new RJButton();
-            rjButton18 = new RJButton();
-            rjButton17 = new RJButton();
-            rjButton16 = new RJButton();
-            rjButton15 = new RJButton();
-            rjButton14 = new RJButton();
-            rjButton13 = new RJButton();
-            rjButton3 = new RJButton();
-            rjButton12 = new RJButton();
-            rjButton11 = new RJButton();
-            rjButton10 = new RJButton();
-            rjButton9 = new RJButton();
-            rjButton8 = new RJButton();
-            rjButton7 = new RJButton();
-            rjButton6 = new RJButton();
-            rjButton5 = new RJButton();
-            rjButton4 = new RJButton();
-            textBox1 = new TextBox();
-            menuStrip2 = new MenuStrip();
-            verToolStripMenuItem = new ToolStripMenuItem();
-            satToolStripMenuItem = new ToolStripMenuItem();
-            cientificaToolStripMenuItem = new ToolStripMenuItem();
-            programableToolStripMenuItem = new ToolStripMenuItem();
             panel4 = new Panel();
             textBox3 = new TextBox();
             rjButton126 = new RJButton();
@@ -193,10 +193,10 @@
             rjButton93 = new RJButton();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             panel1.SuspendLayout();
+            menuStrip2.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             menuStrip3.SuspendLayout();
-            menuStrip2.SuspendLayout();
             panel4.SuspendLayout();
             menuStrip1.SuspendLayout();
             panel6.SuspendLayout();
@@ -206,7 +206,6 @@
             // panel1
             // 
             panel1.BackColor = Color.Black;
-            panel1.Controls.Add(panel2);
             panel1.Controls.Add(rjButton29);
             panel1.Controls.Add(rjButton27);
             panel1.Controls.Add(rjButton1);
@@ -243,10 +242,629 @@
             panel1.Size = new Size(511, 567);
             panel1.TabIndex = 1;
             // 
+            // rjButton29
+            // 
+            rjButton29.BackColor = Color.Orange;
+            rjButton29.BackgroundColor = Color.Orange;
+            rjButton29.BackgroundImageLayout = ImageLayout.Center;
+            rjButton29.BorderColor = Color.PaleVioletRed;
+            rjButton29.BorderRadius = 25;
+            rjButton29.BorderSize = 0;
+            rjButton29.FlatAppearance.BorderSize = 0;
+            rjButton29.FlatStyle = FlatStyle.Flat;
+            rjButton29.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton29.ForeColor = Color.WhiteSmoke;
+            rjButton29.Location = new Point(393, 402);
+            rjButton29.Name = "rjButton29";
+            rjButton29.Size = new Size(87, 123);
+            rjButton29.TabIndex = 28;
+            rjButton29.Text = "=";
+            rjButton29.TextColor = Color.WhiteSmoke;
+            rjButton29.UseVisualStyleBackColor = false;
+            rjButton29.Click += rjButton29_Click;
+            // 
+            // rjButton27
+            // 
+            rjButton27.BackColor = Color.Orange;
+            rjButton27.BackgroundColor = Color.Orange;
+            rjButton27.BackgroundImageLayout = ImageLayout.Center;
+            rjButton27.BorderColor = Color.PaleVioletRed;
+            rjButton27.BorderRadius = 25;
+            rjButton27.BorderSize = 0;
+            rjButton27.FlatAppearance.BorderSize = 0;
+            rjButton27.FlatStyle = FlatStyle.Flat;
+            rjButton27.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton27.ForeColor = Color.WhiteSmoke;
+            rjButton27.Location = new Point(393, 336);
+            rjButton27.Name = "rjButton27";
+            rjButton27.Size = new Size(87, 50);
+            rjButton27.TabIndex = 26;
+            rjButton27.Text = "1/x";
+            rjButton27.TextColor = Color.WhiteSmoke;
+            rjButton27.UseVisualStyleBackColor = false;
+            // 
+            // rjButton1
+            // 
+            rjButton1.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton1.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton1.BorderColor = Color.PaleVioletRed;
+            rjButton1.BorderRadius = 25;
+            rjButton1.BorderSize = 0;
+            rjButton1.FlatAppearance.BorderSize = 0;
+            rjButton1.FlatStyle = FlatStyle.Flat;
+            rjButton1.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton1.ForeColor = Color.Black;
+            rjButton1.Location = new Point(21, 135);
+            rjButton1.Name = "rjButton1";
+            rjButton1.Size = new Size(87, 50);
+            rjButton1.TabIndex = 2;
+            rjButton1.Text = "MC";
+            rjButton1.TextColor = Color.Black;
+            rjButton1.UseVisualStyleBackColor = false;
+            // 
+            // rjButton26
+            // 
+            rjButton26.BackColor = Color.Orange;
+            rjButton26.BackgroundColor = Color.Orange;
+            rjButton26.BackgroundImageLayout = ImageLayout.Center;
+            rjButton26.BorderColor = Color.PaleVioletRed;
+            rjButton26.BorderRadius = 25;
+            rjButton26.BorderSize = 0;
+            rjButton26.FlatAppearance.BorderSize = 0;
+            rjButton26.FlatStyle = FlatStyle.Flat;
+            rjButton26.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton26.ForeColor = Color.WhiteSmoke;
+            rjButton26.Location = new Point(393, 271);
+            rjButton26.Name = "rjButton26";
+            rjButton26.Size = new Size(87, 50);
+            rjButton26.TabIndex = 25;
+            rjButton26.Text = "%";
+            rjButton26.TextColor = Color.WhiteSmoke;
+            rjButton26.UseVisualStyleBackColor = false;
+            // 
+            // rjButton25
+            // 
+            rjButton25.BackColor = Color.Orange;
+            rjButton25.BackgroundColor = Color.Orange;
+            rjButton25.BackgroundImageLayout = ImageLayout.Center;
+            rjButton25.BorderColor = Color.PaleVioletRed;
+            rjButton25.BorderRadius = 25;
+            rjButton25.BorderSize = 0;
+            rjButton25.FlatAppearance.BorderSize = 0;
+            rjButton25.FlatStyle = FlatStyle.Flat;
+            rjButton25.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton25.ForeColor = Color.WhiteSmoke;
+            rjButton25.Location = new Point(300, 475);
+            rjButton25.Name = "rjButton25";
+            rjButton25.Size = new Size(87, 50);
+            rjButton25.TabIndex = 24;
+            rjButton25.Text = "+";
+            rjButton25.TextColor = Color.WhiteSmoke;
+            rjButton25.UseVisualStyleBackColor = false;
+            rjButton25.Click += rjButton25_Click;
+            // 
+            // rjButton24
+            // 
+            rjButton24.BackColor = Color.Orange;
+            rjButton24.BackgroundColor = Color.Orange;
+            rjButton24.BackgroundImageLayout = ImageLayout.Center;
+            rjButton24.BorderColor = Color.PaleVioletRed;
+            rjButton24.BorderRadius = 25;
+            rjButton24.BorderSize = 0;
+            rjButton24.FlatAppearance.BorderSize = 0;
+            rjButton24.FlatStyle = FlatStyle.Flat;
+            rjButton24.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton24.ForeColor = Color.WhiteSmoke;
+            rjButton24.Location = new Point(300, 402);
+            rjButton24.Name = "rjButton24";
+            rjButton24.Size = new Size(87, 50);
+            rjButton24.TabIndex = 23;
+            rjButton24.Text = "-";
+            rjButton24.TextColor = Color.WhiteSmoke;
+            rjButton24.UseVisualStyleBackColor = false;
+            rjButton24.Click += rjButton24_Click;
+            // 
+            // rjButton23
+            // 
+            rjButton23.BackColor = Color.Orange;
+            rjButton23.BackgroundColor = Color.Orange;
+            rjButton23.BackgroundImageLayout = ImageLayout.Center;
+            rjButton23.BorderColor = Color.PaleVioletRed;
+            rjButton23.BorderRadius = 25;
+            rjButton23.BorderSize = 0;
+            rjButton23.FlatAppearance.BorderSize = 0;
+            rjButton23.FlatStyle = FlatStyle.Flat;
+            rjButton23.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton23.ForeColor = Color.WhiteSmoke;
+            rjButton23.Location = new Point(300, 336);
+            rjButton23.Name = "rjButton23";
+            rjButton23.Size = new Size(87, 50);
+            rjButton23.TabIndex = 22;
+            rjButton23.Text = "*";
+            rjButton23.TextColor = Color.WhiteSmoke;
+            rjButton23.UseVisualStyleBackColor = false;
+            rjButton23.Click += rjButton23_Click;
+            // 
+            // rjButton22
+            // 
+            rjButton22.BackColor = SystemColors.ControlDarkDark;
+            rjButton22.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton22.BorderColor = Color.PaleVioletRed;
+            rjButton22.BorderRadius = 25;
+            rjButton22.BorderSize = 0;
+            rjButton22.FlatAppearance.BorderSize = 0;
+            rjButton22.FlatStyle = FlatStyle.Flat;
+            rjButton22.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton22.ForeColor = Color.WhiteSmoke;
+            rjButton22.Location = new Point(207, 475);
+            rjButton22.Name = "rjButton22";
+            rjButton22.Size = new Size(87, 50);
+            rjButton22.TabIndex = 21;
+            rjButton22.Text = ".";
+            rjButton22.TextColor = Color.WhiteSmoke;
+            rjButton22.UseVisualStyleBackColor = false;
+            rjButton22.Click += rjButton22_Click;
+            // 
+            // rjButton2
+            // 
+            rjButton2.BackColor = Color.Orange;
+            rjButton2.BackgroundColor = Color.Orange;
+            rjButton2.BackgroundImageLayout = ImageLayout.Center;
+            rjButton2.BorderColor = Color.PaleVioletRed;
+            rjButton2.BorderRadius = 25;
+            rjButton2.BorderSize = 0;
+            rjButton2.FlatAppearance.BorderSize = 0;
+            rjButton2.FlatStyle = FlatStyle.Flat;
+            rjButton2.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton2.ForeColor = Color.WhiteSmoke;
+            rjButton2.Location = new Point(300, 271);
+            rjButton2.Name = "rjButton2";
+            rjButton2.Size = new Size(87, 50);
+            rjButton2.TabIndex = 3;
+            rjButton2.Text = "/";
+            rjButton2.TextColor = Color.WhiteSmoke;
+            rjButton2.UseVisualStyleBackColor = false;
+            rjButton2.Click += rjButton2_Click;
+            // 
+            // rjButton21
+            // 
+            rjButton21.BackColor = SystemColors.ControlDarkDark;
+            rjButton21.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton21.BorderColor = Color.PaleVioletRed;
+            rjButton21.BorderRadius = 25;
+            rjButton21.BorderSize = 0;
+            rjButton21.FlatAppearance.BorderSize = 0;
+            rjButton21.FlatStyle = FlatStyle.Flat;
+            rjButton21.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton21.ForeColor = Color.WhiteSmoke;
+            rjButton21.Location = new Point(21, 475);
+            rjButton21.Name = "rjButton21";
+            rjButton21.Size = new Size(180, 50);
+            rjButton21.TabIndex = 20;
+            rjButton21.Text = "0";
+            rjButton21.TextColor = Color.WhiteSmoke;
+            rjButton21.UseVisualStyleBackColor = false;
+            rjButton21.Click += rjButton21_Click;
+            // 
+            // rjButton20
+            // 
+            rjButton20.BackColor = SystemColors.ControlDarkDark;
+            rjButton20.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton20.BorderColor = Color.PaleVioletRed;
+            rjButton20.BorderRadius = 25;
+            rjButton20.BorderSize = 0;
+            rjButton20.FlatAppearance.BorderSize = 0;
+            rjButton20.FlatStyle = FlatStyle.Flat;
+            rjButton20.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton20.ForeColor = Color.WhiteSmoke;
+            rjButton20.Location = new Point(207, 336);
+            rjButton20.Name = "rjButton20";
+            rjButton20.Size = new Size(87, 50);
+            rjButton20.TabIndex = 19;
+            rjButton20.Text = "6";
+            rjButton20.TextColor = Color.WhiteSmoke;
+            rjButton20.UseVisualStyleBackColor = false;
+            rjButton20.Click += rjButton20_Click;
+            // 
+            // rjButton19
+            // 
+            rjButton19.BackColor = SystemColors.ControlDarkDark;
+            rjButton19.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton19.BorderColor = Color.PaleVioletRed;
+            rjButton19.BorderRadius = 25;
+            rjButton19.BorderSize = 0;
+            rjButton19.FlatAppearance.BorderSize = 0;
+            rjButton19.FlatStyle = FlatStyle.Flat;
+            rjButton19.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton19.ForeColor = Color.WhiteSmoke;
+            rjButton19.Location = new Point(114, 402);
+            rjButton19.Name = "rjButton19";
+            rjButton19.Size = new Size(87, 50);
+            rjButton19.TabIndex = 18;
+            rjButton19.Text = "2";
+            rjButton19.TextColor = Color.WhiteSmoke;
+            rjButton19.UseVisualStyleBackColor = false;
+            rjButton19.Click += rjButton19_Click;
+            // 
+            // rjButton18
+            // 
+            rjButton18.BackColor = SystemColors.ControlDarkDark;
+            rjButton18.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton18.BorderColor = Color.PaleVioletRed;
+            rjButton18.BorderRadius = 25;
+            rjButton18.BorderSize = 0;
+            rjButton18.FlatAppearance.BorderSize = 0;
+            rjButton18.FlatStyle = FlatStyle.Flat;
+            rjButton18.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton18.ForeColor = Color.WhiteSmoke;
+            rjButton18.Location = new Point(21, 402);
+            rjButton18.Name = "rjButton18";
+            rjButton18.Size = new Size(87, 50);
+            rjButton18.TabIndex = 17;
+            rjButton18.Text = "1";
+            rjButton18.TextColor = Color.WhiteSmoke;
+            rjButton18.UseVisualStyleBackColor = false;
+            rjButton18.Click += rjButton18_Click;
+            // 
+            // rjButton17
+            // 
+            rjButton17.BackColor = SystemColors.ControlDarkDark;
+            rjButton17.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton17.BorderColor = Color.PaleVioletRed;
+            rjButton17.BorderRadius = 25;
+            rjButton17.BorderSize = 0;
+            rjButton17.FlatAppearance.BorderSize = 0;
+            rjButton17.FlatStyle = FlatStyle.Flat;
+            rjButton17.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton17.ForeColor = Color.WhiteSmoke;
+            rjButton17.Location = new Point(207, 402);
+            rjButton17.Name = "rjButton17";
+            rjButton17.Size = new Size(87, 50);
+            rjButton17.TabIndex = 16;
+            rjButton17.Text = "3";
+            rjButton17.TextColor = Color.WhiteSmoke;
+            rjButton17.UseVisualStyleBackColor = false;
+            rjButton17.Click += rjButton17_Click;
+            // 
+            // rjButton16
+            // 
+            rjButton16.BackColor = SystemColors.ControlDarkDark;
+            rjButton16.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton16.BorderColor = Color.PaleVioletRed;
+            rjButton16.BorderRadius = 25;
+            rjButton16.BorderSize = 0;
+            rjButton16.FlatAppearance.BorderSize = 0;
+            rjButton16.FlatStyle = FlatStyle.Flat;
+            rjButton16.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton16.ForeColor = Color.WhiteSmoke;
+            rjButton16.Location = new Point(114, 336);
+            rjButton16.Name = "rjButton16";
+            rjButton16.Size = new Size(87, 50);
+            rjButton16.TabIndex = 15;
+            rjButton16.Text = "5";
+            rjButton16.TextColor = Color.WhiteSmoke;
+            rjButton16.UseVisualStyleBackColor = false;
+            rjButton16.Click += rjButton16_Click;
+            // 
+            // rjButton15
+            // 
+            rjButton15.BackColor = SystemColors.ControlDarkDark;
+            rjButton15.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton15.BorderColor = Color.PaleVioletRed;
+            rjButton15.BorderRadius = 25;
+            rjButton15.BorderSize = 0;
+            rjButton15.FlatAppearance.BorderSize = 0;
+            rjButton15.FlatStyle = FlatStyle.Flat;
+            rjButton15.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton15.ForeColor = Color.WhiteSmoke;
+            rjButton15.Location = new Point(21, 336);
+            rjButton15.Name = "rjButton15";
+            rjButton15.Size = new Size(87, 50);
+            rjButton15.TabIndex = 14;
+            rjButton15.Text = "4";
+            rjButton15.TextColor = Color.WhiteSmoke;
+            rjButton15.UseVisualStyleBackColor = false;
+            rjButton15.Click += rjButton15_Click;
+            // 
+            // rjButton14
+            // 
+            rjButton14.BackColor = SystemColors.ControlDarkDark;
+            rjButton14.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton14.BorderColor = Color.PaleVioletRed;
+            rjButton14.BorderRadius = 25;
+            rjButton14.BorderSize = 0;
+            rjButton14.FlatAppearance.BorderSize = 0;
+            rjButton14.FlatStyle = FlatStyle.Flat;
+            rjButton14.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton14.ForeColor = Color.WhiteSmoke;
+            rjButton14.Location = new Point(207, 271);
+            rjButton14.Name = "rjButton14";
+            rjButton14.Size = new Size(87, 50);
+            rjButton14.TabIndex = 13;
+            rjButton14.Text = "9";
+            rjButton14.TextColor = Color.WhiteSmoke;
+            rjButton14.UseVisualStyleBackColor = false;
+            rjButton14.Click += rjButton14_Click;
+            // 
+            // rjButton13
+            // 
+            rjButton13.BackColor = SystemColors.ControlDarkDark;
+            rjButton13.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton13.BorderColor = Color.PaleVioletRed;
+            rjButton13.BorderRadius = 25;
+            rjButton13.BorderSize = 0;
+            rjButton13.FlatAppearance.BorderSize = 0;
+            rjButton13.FlatStyle = FlatStyle.Flat;
+            rjButton13.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton13.ForeColor = Color.WhiteSmoke;
+            rjButton13.Location = new Point(114, 271);
+            rjButton13.Name = "rjButton13";
+            rjButton13.Size = new Size(87, 50);
+            rjButton13.TabIndex = 12;
+            rjButton13.Text = "8";
+            rjButton13.TextColor = Color.WhiteSmoke;
+            rjButton13.UseVisualStyleBackColor = false;
+            rjButton13.Click += rjButton13_Click;
+            // 
+            // rjButton3
+            // 
+            rjButton3.BackColor = SystemColors.ControlDarkDark;
+            rjButton3.BackgroundColor = SystemColors.ControlDarkDark;
+            rjButton3.BorderColor = Color.PaleVioletRed;
+            rjButton3.BorderRadius = 25;
+            rjButton3.BorderSize = 0;
+            rjButton3.FlatAppearance.BorderSize = 0;
+            rjButton3.FlatStyle = FlatStyle.Flat;
+            rjButton3.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton3.ForeColor = Color.WhiteSmoke;
+            rjButton3.Location = new Point(21, 271);
+            rjButton3.Name = "rjButton3";
+            rjButton3.Size = new Size(87, 50);
+            rjButton3.TabIndex = 4;
+            rjButton3.Text = "7";
+            rjButton3.TextColor = Color.WhiteSmoke;
+            rjButton3.UseVisualStyleBackColor = false;
+            rjButton3.Click += rjButton3_Click;
+            // 
+            // rjButton12
+            // 
+            rjButton12.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton12.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton12.BorderColor = Color.PaleVioletRed;
+            rjButton12.BorderRadius = 25;
+            rjButton12.BorderSize = 0;
+            rjButton12.FlatAppearance.BorderSize = 0;
+            rjButton12.FlatStyle = FlatStyle.Flat;
+            rjButton12.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton12.ForeColor = Color.Black;
+            rjButton12.Location = new Point(393, 209);
+            rjButton12.Name = "rjButton12";
+            rjButton12.Size = new Size(87, 50);
+            rjButton12.TabIndex = 11;
+            rjButton12.Text = "√ ";
+            rjButton12.TextColor = Color.Black;
+            rjButton12.UseVisualStyleBackColor = false;
+            // 
+            // rjButton11
+            // 
+            rjButton11.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton11.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton11.BorderColor = Color.PaleVioletRed;
+            rjButton11.BorderRadius = 25;
+            rjButton11.BorderSize = 0;
+            rjButton11.FlatAppearance.BorderSize = 0;
+            rjButton11.FlatStyle = FlatStyle.Flat;
+            rjButton11.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton11.ForeColor = Color.Black;
+            rjButton11.Location = new Point(300, 204);
+            rjButton11.Name = "rjButton11";
+            rjButton11.Size = new Size(87, 50);
+            rjButton11.TabIndex = 10;
+            rjButton11.Text = "±";
+            rjButton11.TextColor = Color.Black;
+            rjButton11.UseVisualStyleBackColor = false;
+            // 
+            // rjButton10
+            // 
+            rjButton10.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton10.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton10.BorderColor = Color.PaleVioletRed;
+            rjButton10.BorderRadius = 25;
+            rjButton10.BorderSize = 0;
+            rjButton10.FlatAppearance.BorderSize = 0;
+            rjButton10.FlatStyle = FlatStyle.Flat;
+            rjButton10.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton10.ForeColor = Color.Black;
+            rjButton10.Location = new Point(207, 204);
+            rjButton10.Name = "rjButton10";
+            rjButton10.Size = new Size(87, 50);
+            rjButton10.TabIndex = 9;
+            rjButton10.Text = "C";
+            rjButton10.TextColor = Color.Black;
+            rjButton10.UseVisualStyleBackColor = false;
+            rjButton10.Click += rjButton10_Click;
+            // 
+            // rjButton9
+            // 
+            rjButton9.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton9.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton9.BorderColor = Color.PaleVioletRed;
+            rjButton9.BorderRadius = 25;
+            rjButton9.BorderSize = 0;
+            rjButton9.FlatAppearance.BorderSize = 0;
+            rjButton9.FlatStyle = FlatStyle.Flat;
+            rjButton9.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton9.ForeColor = Color.Black;
+            rjButton9.Location = new Point(114, 204);
+            rjButton9.Name = "rjButton9";
+            rjButton9.Size = new Size(87, 50);
+            rjButton9.TabIndex = 8;
+            rjButton9.Text = "CE";
+            rjButton9.TextColor = Color.Black;
+            rjButton9.UseVisualStyleBackColor = false;
+            // 
+            // rjButton8
+            // 
+            rjButton8.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton8.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton8.BorderColor = Color.PaleVioletRed;
+            rjButton8.BorderRadius = 25;
+            rjButton8.BorderSize = 0;
+            rjButton8.FlatAppearance.BorderSize = 0;
+            rjButton8.FlatStyle = FlatStyle.Flat;
+            rjButton8.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton8.ForeColor = Color.Black;
+            rjButton8.Location = new Point(21, 204);
+            rjButton8.Name = "rjButton8";
+            rjButton8.Size = new Size(87, 50);
+            rjButton8.TabIndex = 7;
+            rjButton8.Text = "←";
+            rjButton8.TextColor = Color.Black;
+            rjButton8.UseVisualStyleBackColor = false;
+            rjButton8.Click += rjButton8_Click;
+            // 
+            // rjButton7
+            // 
+            rjButton7.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton7.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton7.BorderColor = Color.PaleVioletRed;
+            rjButton7.BorderRadius = 25;
+            rjButton7.BorderSize = 0;
+            rjButton7.FlatAppearance.BorderSize = 0;
+            rjButton7.FlatStyle = FlatStyle.Flat;
+            rjButton7.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton7.ForeColor = Color.Black;
+            rjButton7.Location = new Point(393, 135);
+            rjButton7.Name = "rjButton7";
+            rjButton7.Size = new Size(87, 50);
+            rjButton7.TabIndex = 6;
+            rjButton7.Text = "M-";
+            rjButton7.TextColor = Color.Black;
+            rjButton7.UseVisualStyleBackColor = false;
+            // 
+            // rjButton6
+            // 
+            rjButton6.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton6.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton6.BorderColor = Color.PaleVioletRed;
+            rjButton6.BorderRadius = 25;
+            rjButton6.BorderSize = 0;
+            rjButton6.FlatAppearance.BorderSize = 0;
+            rjButton6.FlatStyle = FlatStyle.Flat;
+            rjButton6.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton6.ForeColor = Color.Black;
+            rjButton6.Location = new Point(300, 135);
+            rjButton6.Name = "rjButton6";
+            rjButton6.Size = new Size(87, 50);
+            rjButton6.TabIndex = 5;
+            rjButton6.Text = "M+";
+            rjButton6.TextColor = Color.Black;
+            rjButton6.UseVisualStyleBackColor = false;
+            // 
+            // rjButton5
+            // 
+            rjButton5.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton5.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton5.BorderColor = Color.PaleVioletRed;
+            rjButton5.BorderRadius = 25;
+            rjButton5.BorderSize = 0;
+            rjButton5.FlatAppearance.BorderSize = 0;
+            rjButton5.FlatStyle = FlatStyle.Flat;
+            rjButton5.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton5.ForeColor = Color.Black;
+            rjButton5.Location = new Point(207, 135);
+            rjButton5.Name = "rjButton5";
+            rjButton5.Size = new Size(87, 50);
+            rjButton5.TabIndex = 4;
+            rjButton5.Text = "MS";
+            rjButton5.TextColor = Color.Black;
+            rjButton5.UseVisualStyleBackColor = false;
+            // 
+            // rjButton4
+            // 
+            rjButton4.BackColor = SystemColors.GradientInactiveCaption;
+            rjButton4.BackgroundColor = SystemColors.GradientInactiveCaption;
+            rjButton4.BorderColor = Color.PaleVioletRed;
+            rjButton4.BorderRadius = 25;
+            rjButton4.BorderSize = 0;
+            rjButton4.FlatAppearance.BorderSize = 0;
+            rjButton4.FlatStyle = FlatStyle.Flat;
+            rjButton4.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton4.ForeColor = Color.Black;
+            rjButton4.Location = new Point(114, 135);
+            rjButton4.Name = "rjButton4";
+            rjButton4.Size = new Size(87, 50);
+            rjButton4.TabIndex = 3;
+            rjButton4.Text = "MR";
+            rjButton4.TextColor = Color.Black;
+            rjButton4.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.Black;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Arial", 30F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox1.ForeColor = Color.WhiteSmoke;
+            textBox1.Location = new Point(21, 49);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(459, 68);
+            textBox1.TabIndex = 1;
+            textBox1.TextAlign = HorizontalAlignment.Right;
+            textBox1.KeyPress += textBox1_KeyPress;
+            // 
+            // menuStrip2
+            // 
+            menuStrip2.BackColor = Color.Orange;
+            menuStrip2.ImageScalingSize = new Size(20, 20);
+            menuStrip2.Items.AddRange(new ToolStripItem[] { verToolStripMenuItem });
+            menuStrip2.Location = new Point(0, 0);
+            menuStrip2.Name = "menuStrip2";
+            menuStrip2.Size = new Size(511, 31);
+            menuStrip2.TabIndex = 0;
+            menuStrip2.Text = "menuStrip2";
+            menuStrip2.MouseDown += menuStrip2_MouseDown;
+            // 
+            // verToolStripMenuItem
+            // 
+            verToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { satToolStripMenuItem, cientificaToolStripMenuItem, programableToolStripMenuItem });
+            verToolStripMenuItem.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            verToolStripMenuItem.ForeColor = Color.Black;
+            verToolStripMenuItem.ImageTransparentColor = Color.FromArgb(255, 128, 0);
+            verToolStripMenuItem.Name = "verToolStripMenuItem";
+            verToolStripMenuItem.Size = new Size(54, 27);
+            verToolStripMenuItem.Text = "Ver";
+            // 
+            // satToolStripMenuItem
+            // 
+            satToolStripMenuItem.BackColor = Color.Orange;
+            satToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            satToolStripMenuItem.ForeColor = Color.Black;
+            satToolStripMenuItem.Name = "satToolStripMenuItem";
+            satToolStripMenuItem.Size = new Size(207, 28);
+            satToolStripMenuItem.Text = "standar";
+            // 
+            // cientificaToolStripMenuItem
+            // 
+            cientificaToolStripMenuItem.BackColor = Color.Orange;
+            cientificaToolStripMenuItem.Name = "cientificaToolStripMenuItem";
+            cientificaToolStripMenuItem.Size = new Size(207, 28);
+            cientificaToolStripMenuItem.Text = "Cientifica";
+            cientificaToolStripMenuItem.Click += cientificaToolStripMenuItem_Click;
+            // 
+            // programableToolStripMenuItem
+            // 
+            programableToolStripMenuItem.BackColor = Color.Orange;
+            programableToolStripMenuItem.Name = "programableToolStripMenuItem";
+            programableToolStripMenuItem.Size = new Size(207, 28);
+            programableToolStripMenuItem.Text = "Programable";
+            programableToolStripMenuItem.Click += programableToolStripMenuItem_Click;
+            // 
             // panel2
             // 
             panel2.BackColor = Color.Black;
             panel2.BorderStyle = BorderStyle.Fixed3D;
+            panel2.Controls.Add(textBox2);
             panel2.Controls.Add(rjButton81);
             panel2.Controls.Add(rjButton80);
             panel2.Controls.Add(rjButton79);
@@ -300,13 +918,27 @@
             panel2.Controls.Add(rjButton32);
             panel2.Controls.Add(rjButton31);
             panel2.Controls.Add(rjButton28);
-            panel2.Controls.Add(textBox2);
             panel2.Controls.Add(menuStrip3);
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1045, 654);
+            panel2.Size = new Size(1045, 604);
             panel2.TabIndex = 2;
             panel2.Paint += panel2_Paint;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.Black;
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Font = new Font("Arial", 30F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox2.ForeColor = Color.WhiteSmoke;
+            textBox2.Location = new Point(14, 68);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(924, 63);
+            textBox2.TabIndex = 29;
+            textBox2.TextAlign = HorizontalAlignment.Right;
+            textBox2.TextChanged += textBox2_TextChanged;
+            textBox2.KeyPress += textBox2_KeyPress;
             // 
             // rjButton81
             // 
@@ -1371,21 +2003,6 @@
             rjButton28.TextColor = Color.Black;
             rjButton28.UseVisualStyleBackColor = false;
             // 
-            // textBox2
-            // 
-            textBox2.BackColor = Color.Black;
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Arial", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox2.ForeColor = Color.WhiteSmoke;
-            textBox2.Location = new Point(14, 68);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(924, 63);
-            textBox2.TabIndex = 29;
-            textBox2.TextAlign = HorizontalAlignment.Right;
-            textBox2.TextChanged += textBox2_TextChanged;
-            textBox2.KeyPress += textBox2_KeyPress;
-            // 
             // menuStrip3
             // 
             menuStrip3.BackColor = Color.Orange;
@@ -1432,624 +2049,6 @@
             toolStripMenuItem4.Size = new Size(207, 28);
             toolStripMenuItem4.Text = "Programable";
             toolStripMenuItem4.Click += toolStripMenuItem4_Click;
-            // 
-            // rjButton29
-            // 
-            rjButton29.BackColor = Color.Orange;
-            rjButton29.BackgroundColor = Color.Orange;
-            rjButton29.BackgroundImageLayout = ImageLayout.Center;
-            rjButton29.BorderColor = Color.PaleVioletRed;
-            rjButton29.BorderRadius = 25;
-            rjButton29.BorderSize = 0;
-            rjButton29.FlatAppearance.BorderSize = 0;
-            rjButton29.FlatStyle = FlatStyle.Flat;
-            rjButton29.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton29.ForeColor = Color.WhiteSmoke;
-            rjButton29.Location = new Point(393, 402);
-            rjButton29.Name = "rjButton29";
-            rjButton29.Size = new Size(87, 123);
-            rjButton29.TabIndex = 28;
-            rjButton29.Text = "=";
-            rjButton29.TextColor = Color.WhiteSmoke;
-            rjButton29.UseVisualStyleBackColor = false;
-            rjButton29.Click += rjButton29_Click;
-            // 
-            // rjButton27
-            // 
-            rjButton27.BackColor = Color.Orange;
-            rjButton27.BackgroundColor = Color.Orange;
-            rjButton27.BackgroundImageLayout = ImageLayout.Center;
-            rjButton27.BorderColor = Color.PaleVioletRed;
-            rjButton27.BorderRadius = 25;
-            rjButton27.BorderSize = 0;
-            rjButton27.FlatAppearance.BorderSize = 0;
-            rjButton27.FlatStyle = FlatStyle.Flat;
-            rjButton27.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton27.ForeColor = Color.WhiteSmoke;
-            rjButton27.Location = new Point(393, 336);
-            rjButton27.Name = "rjButton27";
-            rjButton27.Size = new Size(87, 50);
-            rjButton27.TabIndex = 26;
-            rjButton27.Text = "1/x";
-            rjButton27.TextColor = Color.WhiteSmoke;
-            rjButton27.UseVisualStyleBackColor = false;
-            // 
-            // rjButton1
-            // 
-            rjButton1.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton1.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton1.BorderColor = Color.PaleVioletRed;
-            rjButton1.BorderRadius = 25;
-            rjButton1.BorderSize = 0;
-            rjButton1.FlatAppearance.BorderSize = 0;
-            rjButton1.FlatStyle = FlatStyle.Flat;
-            rjButton1.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton1.ForeColor = Color.Black;
-            rjButton1.Location = new Point(21, 135);
-            rjButton1.Name = "rjButton1";
-            rjButton1.Size = new Size(87, 50);
-            rjButton1.TabIndex = 2;
-            rjButton1.Text = "MC";
-            rjButton1.TextColor = Color.Black;
-            rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // rjButton26
-            // 
-            rjButton26.BackColor = Color.Orange;
-            rjButton26.BackgroundColor = Color.Orange;
-            rjButton26.BackgroundImageLayout = ImageLayout.Center;
-            rjButton26.BorderColor = Color.PaleVioletRed;
-            rjButton26.BorderRadius = 25;
-            rjButton26.BorderSize = 0;
-            rjButton26.FlatAppearance.BorderSize = 0;
-            rjButton26.FlatStyle = FlatStyle.Flat;
-            rjButton26.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton26.ForeColor = Color.WhiteSmoke;
-            rjButton26.Location = new Point(393, 271);
-            rjButton26.Name = "rjButton26";
-            rjButton26.Size = new Size(87, 50);
-            rjButton26.TabIndex = 25;
-            rjButton26.Text = "%";
-            rjButton26.TextColor = Color.WhiteSmoke;
-            rjButton26.UseVisualStyleBackColor = false;
-            // 
-            // rjButton25
-            // 
-            rjButton25.BackColor = Color.Orange;
-            rjButton25.BackgroundColor = Color.Orange;
-            rjButton25.BackgroundImageLayout = ImageLayout.Center;
-            rjButton25.BorderColor = Color.PaleVioletRed;
-            rjButton25.BorderRadius = 25;
-            rjButton25.BorderSize = 0;
-            rjButton25.FlatAppearance.BorderSize = 0;
-            rjButton25.FlatStyle = FlatStyle.Flat;
-            rjButton25.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton25.ForeColor = Color.WhiteSmoke;
-            rjButton25.Location = new Point(300, 475);
-            rjButton25.Name = "rjButton25";
-            rjButton25.Size = new Size(87, 50);
-            rjButton25.TabIndex = 24;
-            rjButton25.Text = "+";
-            rjButton25.TextColor = Color.WhiteSmoke;
-            rjButton25.UseVisualStyleBackColor = false;
-            rjButton25.Click += rjButton25_Click;
-            // 
-            // rjButton24
-            // 
-            rjButton24.BackColor = Color.Orange;
-            rjButton24.BackgroundColor = Color.Orange;
-            rjButton24.BackgroundImageLayout = ImageLayout.Center;
-            rjButton24.BorderColor = Color.PaleVioletRed;
-            rjButton24.BorderRadius = 25;
-            rjButton24.BorderSize = 0;
-            rjButton24.FlatAppearance.BorderSize = 0;
-            rjButton24.FlatStyle = FlatStyle.Flat;
-            rjButton24.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton24.ForeColor = Color.WhiteSmoke;
-            rjButton24.Location = new Point(300, 402);
-            rjButton24.Name = "rjButton24";
-            rjButton24.Size = new Size(87, 50);
-            rjButton24.TabIndex = 23;
-            rjButton24.Text = "-";
-            rjButton24.TextColor = Color.WhiteSmoke;
-            rjButton24.UseVisualStyleBackColor = false;
-            rjButton24.Click += rjButton24_Click;
-            // 
-            // rjButton23
-            // 
-            rjButton23.BackColor = Color.Orange;
-            rjButton23.BackgroundColor = Color.Orange;
-            rjButton23.BackgroundImageLayout = ImageLayout.Center;
-            rjButton23.BorderColor = Color.PaleVioletRed;
-            rjButton23.BorderRadius = 25;
-            rjButton23.BorderSize = 0;
-            rjButton23.FlatAppearance.BorderSize = 0;
-            rjButton23.FlatStyle = FlatStyle.Flat;
-            rjButton23.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton23.ForeColor = Color.WhiteSmoke;
-            rjButton23.Location = new Point(300, 336);
-            rjButton23.Name = "rjButton23";
-            rjButton23.Size = new Size(87, 50);
-            rjButton23.TabIndex = 22;
-            rjButton23.Text = "*";
-            rjButton23.TextColor = Color.WhiteSmoke;
-            rjButton23.UseVisualStyleBackColor = false;
-            rjButton23.Click += rjButton23_Click;
-            // 
-            // rjButton22
-            // 
-            rjButton22.BackColor = SystemColors.ControlDarkDark;
-            rjButton22.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton22.BorderColor = Color.PaleVioletRed;
-            rjButton22.BorderRadius = 25;
-            rjButton22.BorderSize = 0;
-            rjButton22.FlatAppearance.BorderSize = 0;
-            rjButton22.FlatStyle = FlatStyle.Flat;
-            rjButton22.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton22.ForeColor = Color.WhiteSmoke;
-            rjButton22.Location = new Point(207, 475);
-            rjButton22.Name = "rjButton22";
-            rjButton22.Size = new Size(87, 50);
-            rjButton22.TabIndex = 21;
-            rjButton22.Text = ".";
-            rjButton22.TextColor = Color.WhiteSmoke;
-            rjButton22.UseVisualStyleBackColor = false;
-            rjButton22.Click += rjButton22_Click;
-            // 
-            // rjButton2
-            // 
-            rjButton2.BackColor = Color.Orange;
-            rjButton2.BackgroundColor = Color.Orange;
-            rjButton2.BackgroundImageLayout = ImageLayout.Center;
-            rjButton2.BorderColor = Color.PaleVioletRed;
-            rjButton2.BorderRadius = 25;
-            rjButton2.BorderSize = 0;
-            rjButton2.FlatAppearance.BorderSize = 0;
-            rjButton2.FlatStyle = FlatStyle.Flat;
-            rjButton2.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton2.ForeColor = Color.WhiteSmoke;
-            rjButton2.Location = new Point(300, 271);
-            rjButton2.Name = "rjButton2";
-            rjButton2.Size = new Size(87, 50);
-            rjButton2.TabIndex = 3;
-            rjButton2.Text = "/";
-            rjButton2.TextColor = Color.WhiteSmoke;
-            rjButton2.UseVisualStyleBackColor = false;
-            rjButton2.Click += rjButton2_Click;
-            // 
-            // rjButton21
-            // 
-            rjButton21.BackColor = SystemColors.ControlDarkDark;
-            rjButton21.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton21.BorderColor = Color.PaleVioletRed;
-            rjButton21.BorderRadius = 25;
-            rjButton21.BorderSize = 0;
-            rjButton21.FlatAppearance.BorderSize = 0;
-            rjButton21.FlatStyle = FlatStyle.Flat;
-            rjButton21.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton21.ForeColor = Color.WhiteSmoke;
-            rjButton21.Location = new Point(21, 475);
-            rjButton21.Name = "rjButton21";
-            rjButton21.Size = new Size(180, 50);
-            rjButton21.TabIndex = 20;
-            rjButton21.Text = "0";
-            rjButton21.TextColor = Color.WhiteSmoke;
-            rjButton21.UseVisualStyleBackColor = false;
-            rjButton21.Click += rjButton21_Click;
-            // 
-            // rjButton20
-            // 
-            rjButton20.BackColor = SystemColors.ControlDarkDark;
-            rjButton20.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton20.BorderColor = Color.PaleVioletRed;
-            rjButton20.BorderRadius = 25;
-            rjButton20.BorderSize = 0;
-            rjButton20.FlatAppearance.BorderSize = 0;
-            rjButton20.FlatStyle = FlatStyle.Flat;
-            rjButton20.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton20.ForeColor = Color.WhiteSmoke;
-            rjButton20.Location = new Point(207, 336);
-            rjButton20.Name = "rjButton20";
-            rjButton20.Size = new Size(87, 50);
-            rjButton20.TabIndex = 19;
-            rjButton20.Text = "6";
-            rjButton20.TextColor = Color.WhiteSmoke;
-            rjButton20.UseVisualStyleBackColor = false;
-            rjButton20.Click += rjButton20_Click;
-            // 
-            // rjButton19
-            // 
-            rjButton19.BackColor = SystemColors.ControlDarkDark;
-            rjButton19.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton19.BorderColor = Color.PaleVioletRed;
-            rjButton19.BorderRadius = 25;
-            rjButton19.BorderSize = 0;
-            rjButton19.FlatAppearance.BorderSize = 0;
-            rjButton19.FlatStyle = FlatStyle.Flat;
-            rjButton19.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton19.ForeColor = Color.WhiteSmoke;
-            rjButton19.Location = new Point(114, 402);
-            rjButton19.Name = "rjButton19";
-            rjButton19.Size = new Size(87, 50);
-            rjButton19.TabIndex = 18;
-            rjButton19.Text = "2";
-            rjButton19.TextColor = Color.WhiteSmoke;
-            rjButton19.UseVisualStyleBackColor = false;
-            rjButton19.Click += rjButton19_Click;
-            // 
-            // rjButton18
-            // 
-            rjButton18.BackColor = SystemColors.ControlDarkDark;
-            rjButton18.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton18.BorderColor = Color.PaleVioletRed;
-            rjButton18.BorderRadius = 25;
-            rjButton18.BorderSize = 0;
-            rjButton18.FlatAppearance.BorderSize = 0;
-            rjButton18.FlatStyle = FlatStyle.Flat;
-            rjButton18.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton18.ForeColor = Color.WhiteSmoke;
-            rjButton18.Location = new Point(21, 402);
-            rjButton18.Name = "rjButton18";
-            rjButton18.Size = new Size(87, 50);
-            rjButton18.TabIndex = 17;
-            rjButton18.Text = "1";
-            rjButton18.TextColor = Color.WhiteSmoke;
-            rjButton18.UseVisualStyleBackColor = false;
-            rjButton18.Click += rjButton18_Click;
-            // 
-            // rjButton17
-            // 
-            rjButton17.BackColor = SystemColors.ControlDarkDark;
-            rjButton17.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton17.BorderColor = Color.PaleVioletRed;
-            rjButton17.BorderRadius = 25;
-            rjButton17.BorderSize = 0;
-            rjButton17.FlatAppearance.BorderSize = 0;
-            rjButton17.FlatStyle = FlatStyle.Flat;
-            rjButton17.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton17.ForeColor = Color.WhiteSmoke;
-            rjButton17.Location = new Point(207, 402);
-            rjButton17.Name = "rjButton17";
-            rjButton17.Size = new Size(87, 50);
-            rjButton17.TabIndex = 16;
-            rjButton17.Text = "3";
-            rjButton17.TextColor = Color.WhiteSmoke;
-            rjButton17.UseVisualStyleBackColor = false;
-            rjButton17.Click += rjButton17_Click;
-            // 
-            // rjButton16
-            // 
-            rjButton16.BackColor = SystemColors.ControlDarkDark;
-            rjButton16.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton16.BorderColor = Color.PaleVioletRed;
-            rjButton16.BorderRadius = 25;
-            rjButton16.BorderSize = 0;
-            rjButton16.FlatAppearance.BorderSize = 0;
-            rjButton16.FlatStyle = FlatStyle.Flat;
-            rjButton16.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton16.ForeColor = Color.WhiteSmoke;
-            rjButton16.Location = new Point(114, 336);
-            rjButton16.Name = "rjButton16";
-            rjButton16.Size = new Size(87, 50);
-            rjButton16.TabIndex = 15;
-            rjButton16.Text = "5";
-            rjButton16.TextColor = Color.WhiteSmoke;
-            rjButton16.UseVisualStyleBackColor = false;
-            rjButton16.Click += rjButton16_Click;
-            // 
-            // rjButton15
-            // 
-            rjButton15.BackColor = SystemColors.ControlDarkDark;
-            rjButton15.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton15.BorderColor = Color.PaleVioletRed;
-            rjButton15.BorderRadius = 25;
-            rjButton15.BorderSize = 0;
-            rjButton15.FlatAppearance.BorderSize = 0;
-            rjButton15.FlatStyle = FlatStyle.Flat;
-            rjButton15.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton15.ForeColor = Color.WhiteSmoke;
-            rjButton15.Location = new Point(21, 336);
-            rjButton15.Name = "rjButton15";
-            rjButton15.Size = new Size(87, 50);
-            rjButton15.TabIndex = 14;
-            rjButton15.Text = "4";
-            rjButton15.TextColor = Color.WhiteSmoke;
-            rjButton15.UseVisualStyleBackColor = false;
-            rjButton15.Click += rjButton15_Click;
-            // 
-            // rjButton14
-            // 
-            rjButton14.BackColor = SystemColors.ControlDarkDark;
-            rjButton14.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton14.BorderColor = Color.PaleVioletRed;
-            rjButton14.BorderRadius = 25;
-            rjButton14.BorderSize = 0;
-            rjButton14.FlatAppearance.BorderSize = 0;
-            rjButton14.FlatStyle = FlatStyle.Flat;
-            rjButton14.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton14.ForeColor = Color.WhiteSmoke;
-            rjButton14.Location = new Point(207, 271);
-            rjButton14.Name = "rjButton14";
-            rjButton14.Size = new Size(87, 50);
-            rjButton14.TabIndex = 13;
-            rjButton14.Text = "9";
-            rjButton14.TextColor = Color.WhiteSmoke;
-            rjButton14.UseVisualStyleBackColor = false;
-            rjButton14.Click += rjButton14_Click;
-            // 
-            // rjButton13
-            // 
-            rjButton13.BackColor = SystemColors.ControlDarkDark;
-            rjButton13.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton13.BorderColor = Color.PaleVioletRed;
-            rjButton13.BorderRadius = 25;
-            rjButton13.BorderSize = 0;
-            rjButton13.FlatAppearance.BorderSize = 0;
-            rjButton13.FlatStyle = FlatStyle.Flat;
-            rjButton13.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton13.ForeColor = Color.WhiteSmoke;
-            rjButton13.Location = new Point(114, 271);
-            rjButton13.Name = "rjButton13";
-            rjButton13.Size = new Size(87, 50);
-            rjButton13.TabIndex = 12;
-            rjButton13.Text = "8";
-            rjButton13.TextColor = Color.WhiteSmoke;
-            rjButton13.UseVisualStyleBackColor = false;
-            rjButton13.Click += rjButton13_Click;
-            // 
-            // rjButton3
-            // 
-            rjButton3.BackColor = SystemColors.ControlDarkDark;
-            rjButton3.BackgroundColor = SystemColors.ControlDarkDark;
-            rjButton3.BorderColor = Color.PaleVioletRed;
-            rjButton3.BorderRadius = 25;
-            rjButton3.BorderSize = 0;
-            rjButton3.FlatAppearance.BorderSize = 0;
-            rjButton3.FlatStyle = FlatStyle.Flat;
-            rjButton3.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton3.ForeColor = Color.WhiteSmoke;
-            rjButton3.Location = new Point(21, 271);
-            rjButton3.Name = "rjButton3";
-            rjButton3.Size = new Size(87, 50);
-            rjButton3.TabIndex = 4;
-            rjButton3.Text = "7";
-            rjButton3.TextColor = Color.WhiteSmoke;
-            rjButton3.UseVisualStyleBackColor = false;
-            rjButton3.Click += rjButton3_Click;
-            // 
-            // rjButton12
-            // 
-            rjButton12.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton12.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton12.BorderColor = Color.PaleVioletRed;
-            rjButton12.BorderRadius = 25;
-            rjButton12.BorderSize = 0;
-            rjButton12.FlatAppearance.BorderSize = 0;
-            rjButton12.FlatStyle = FlatStyle.Flat;
-            rjButton12.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton12.ForeColor = Color.Black;
-            rjButton12.Location = new Point(393, 209);
-            rjButton12.Name = "rjButton12";
-            rjButton12.Size = new Size(87, 50);
-            rjButton12.TabIndex = 11;
-            rjButton12.Text = "√ ";
-            rjButton12.TextColor = Color.Black;
-            rjButton12.UseVisualStyleBackColor = false;
-            // 
-            // rjButton11
-            // 
-            rjButton11.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton11.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton11.BorderColor = Color.PaleVioletRed;
-            rjButton11.BorderRadius = 25;
-            rjButton11.BorderSize = 0;
-            rjButton11.FlatAppearance.BorderSize = 0;
-            rjButton11.FlatStyle = FlatStyle.Flat;
-            rjButton11.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton11.ForeColor = Color.Black;
-            rjButton11.Location = new Point(300, 204);
-            rjButton11.Name = "rjButton11";
-            rjButton11.Size = new Size(87, 50);
-            rjButton11.TabIndex = 10;
-            rjButton11.Text = "±";
-            rjButton11.TextColor = Color.Black;
-            rjButton11.UseVisualStyleBackColor = false;
-            // 
-            // rjButton10
-            // 
-            rjButton10.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton10.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton10.BorderColor = Color.PaleVioletRed;
-            rjButton10.BorderRadius = 25;
-            rjButton10.BorderSize = 0;
-            rjButton10.FlatAppearance.BorderSize = 0;
-            rjButton10.FlatStyle = FlatStyle.Flat;
-            rjButton10.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton10.ForeColor = Color.Black;
-            rjButton10.Location = new Point(207, 204);
-            rjButton10.Name = "rjButton10";
-            rjButton10.Size = new Size(87, 50);
-            rjButton10.TabIndex = 9;
-            rjButton10.Text = "C";
-            rjButton10.TextColor = Color.Black;
-            rjButton10.UseVisualStyleBackColor = false;
-            rjButton10.Click += rjButton10_Click;
-            // 
-            // rjButton9
-            // 
-            rjButton9.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton9.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton9.BorderColor = Color.PaleVioletRed;
-            rjButton9.BorderRadius = 25;
-            rjButton9.BorderSize = 0;
-            rjButton9.FlatAppearance.BorderSize = 0;
-            rjButton9.FlatStyle = FlatStyle.Flat;
-            rjButton9.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton9.ForeColor = Color.Black;
-            rjButton9.Location = new Point(114, 204);
-            rjButton9.Name = "rjButton9";
-            rjButton9.Size = new Size(87, 50);
-            rjButton9.TabIndex = 8;
-            rjButton9.Text = "CE";
-            rjButton9.TextColor = Color.Black;
-            rjButton9.UseVisualStyleBackColor = false;
-            // 
-            // rjButton8
-            // 
-            rjButton8.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton8.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton8.BorderColor = Color.PaleVioletRed;
-            rjButton8.BorderRadius = 25;
-            rjButton8.BorderSize = 0;
-            rjButton8.FlatAppearance.BorderSize = 0;
-            rjButton8.FlatStyle = FlatStyle.Flat;
-            rjButton8.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton8.ForeColor = Color.Black;
-            rjButton8.Location = new Point(21, 204);
-            rjButton8.Name = "rjButton8";
-            rjButton8.Size = new Size(87, 50);
-            rjButton8.TabIndex = 7;
-            rjButton8.Text = "←";
-            rjButton8.TextColor = Color.Black;
-            rjButton8.UseVisualStyleBackColor = false;
-            rjButton8.Click += rjButton8_Click;
-            // 
-            // rjButton7
-            // 
-            rjButton7.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton7.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton7.BorderColor = Color.PaleVioletRed;
-            rjButton7.BorderRadius = 25;
-            rjButton7.BorderSize = 0;
-            rjButton7.FlatAppearance.BorderSize = 0;
-            rjButton7.FlatStyle = FlatStyle.Flat;
-            rjButton7.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton7.ForeColor = Color.Black;
-            rjButton7.Location = new Point(393, 135);
-            rjButton7.Name = "rjButton7";
-            rjButton7.Size = new Size(87, 50);
-            rjButton7.TabIndex = 6;
-            rjButton7.Text = "M-";
-            rjButton7.TextColor = Color.Black;
-            rjButton7.UseVisualStyleBackColor = false;
-            // 
-            // rjButton6
-            // 
-            rjButton6.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton6.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton6.BorderColor = Color.PaleVioletRed;
-            rjButton6.BorderRadius = 25;
-            rjButton6.BorderSize = 0;
-            rjButton6.FlatAppearance.BorderSize = 0;
-            rjButton6.FlatStyle = FlatStyle.Flat;
-            rjButton6.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton6.ForeColor = Color.Black;
-            rjButton6.Location = new Point(300, 135);
-            rjButton6.Name = "rjButton6";
-            rjButton6.Size = new Size(87, 50);
-            rjButton6.TabIndex = 5;
-            rjButton6.Text = "M+";
-            rjButton6.TextColor = Color.Black;
-            rjButton6.UseVisualStyleBackColor = false;
-            // 
-            // rjButton5
-            // 
-            rjButton5.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton5.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton5.BorderColor = Color.PaleVioletRed;
-            rjButton5.BorderRadius = 25;
-            rjButton5.BorderSize = 0;
-            rjButton5.FlatAppearance.BorderSize = 0;
-            rjButton5.FlatStyle = FlatStyle.Flat;
-            rjButton5.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton5.ForeColor = Color.Black;
-            rjButton5.Location = new Point(207, 135);
-            rjButton5.Name = "rjButton5";
-            rjButton5.Size = new Size(87, 50);
-            rjButton5.TabIndex = 4;
-            rjButton5.Text = "MS";
-            rjButton5.TextColor = Color.Black;
-            rjButton5.UseVisualStyleBackColor = false;
-            // 
-            // rjButton4
-            // 
-            rjButton4.BackColor = SystemColors.GradientInactiveCaption;
-            rjButton4.BackgroundColor = SystemColors.GradientInactiveCaption;
-            rjButton4.BorderColor = Color.PaleVioletRed;
-            rjButton4.BorderRadius = 25;
-            rjButton4.BorderSize = 0;
-            rjButton4.FlatAppearance.BorderSize = 0;
-            rjButton4.FlatStyle = FlatStyle.Flat;
-            rjButton4.Font = new Font("Arial", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            rjButton4.ForeColor = Color.Black;
-            rjButton4.Location = new Point(114, 135);
-            rjButton4.Name = "rjButton4";
-            rjButton4.Size = new Size(87, 50);
-            rjButton4.TabIndex = 3;
-            rjButton4.Text = "MR";
-            rjButton4.TextColor = Color.Black;
-            rjButton4.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.Black;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Arial", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.WhiteSmoke;
-            textBox1.Location = new Point(21, 49);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(459, 68);
-            textBox1.TabIndex = 1;
-            textBox1.TextAlign = HorizontalAlignment.Right;
-            textBox1.KeyPress += textBox1_KeyPress;
-            // 
-            // menuStrip2
-            // 
-            menuStrip2.BackColor = Color.Orange;
-            menuStrip2.ImageScalingSize = new Size(20, 20);
-            menuStrip2.Items.AddRange(new ToolStripItem[] { verToolStripMenuItem });
-            menuStrip2.Location = new Point(0, 0);
-            menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new Size(511, 31);
-            menuStrip2.TabIndex = 0;
-            menuStrip2.Text = "menuStrip2";
-            menuStrip2.MouseDown += menuStrip2_MouseDown;
-            // 
-            // verToolStripMenuItem
-            // 
-            verToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { satToolStripMenuItem, cientificaToolStripMenuItem, programableToolStripMenuItem });
-            verToolStripMenuItem.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            verToolStripMenuItem.ForeColor = Color.Black;
-            verToolStripMenuItem.ImageTransparentColor = Color.FromArgb(255, 128, 0);
-            verToolStripMenuItem.Name = "verToolStripMenuItem";
-            verToolStripMenuItem.Size = new Size(54, 27);
-            verToolStripMenuItem.Text = "Ver";
-            // 
-            // satToolStripMenuItem
-            // 
-            satToolStripMenuItem.BackColor = Color.Orange;
-            satToolStripMenuItem.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            satToolStripMenuItem.ForeColor = Color.Black;
-            satToolStripMenuItem.Name = "satToolStripMenuItem";
-            satToolStripMenuItem.Size = new Size(207, 28);
-            satToolStripMenuItem.Text = "standar";
-            // 
-            // cientificaToolStripMenuItem
-            // 
-            cientificaToolStripMenuItem.BackColor = Color.Orange;
-            cientificaToolStripMenuItem.Name = "cientificaToolStripMenuItem";
-            cientificaToolStripMenuItem.Size = new Size(207, 28);
-            cientificaToolStripMenuItem.Text = "Cientifica";
-            cientificaToolStripMenuItem.Click += cientificaToolStripMenuItem_Click;
-            // 
-            // programableToolStripMenuItem
-            // 
-            programableToolStripMenuItem.BackColor = Color.Orange;
-            programableToolStripMenuItem.Name = "programableToolStripMenuItem";
-            programableToolStripMenuItem.Size = new Size(207, 28);
-            programableToolStripMenuItem.Text = "Programable";
-            programableToolStripMenuItem.Click += programableToolStripMenuItem_Click;
             // 
             // panel4
             // 
@@ -2104,9 +2103,9 @@
             panel4.Controls.Add(rjButton95);
             panel4.Controls.Add(rjButton94);
             panel4.Controls.Add(rjButton93);
-            panel4.Location = new Point(624, 12);
+            panel4.Location = new Point(0, 0);
             panel4.Name = "panel4";
-            panel4.Size = new Size(1003, 623);
+            panel4.Size = new Size(1028, 660);
             panel4.TabIndex = 3;
             panel4.Paint += panel4_Paint;
             // 
@@ -2116,7 +2115,7 @@
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Arial", 30F, FontStyle.Bold, GraphicsUnit.Point);
             textBox3.ForeColor = Color.WhiteSmoke;
-            textBox3.Location = new Point(-83, 59);
+            textBox3.Location = new Point(38, 70);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(921, 70);
@@ -2689,9 +2688,10 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem5 });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1003, 31);
+            menuStrip1.Size = new Size(1028, 31);
             menuStrip1.TabIndex = 85;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.MouseDown += menuStrip1_MouseDown;
             // 
             // toolStripMenuItem5
             // 
@@ -2709,21 +2709,23 @@
             toolStripMenuItem6.DisplayStyle = ToolStripItemDisplayStyle.Text;
             toolStripMenuItem6.ForeColor = Color.Black;
             toolStripMenuItem6.Name = "toolStripMenuItem6";
-            toolStripMenuItem6.Size = new Size(207, 28);
+            toolStripMenuItem6.Size = new Size(224, 28);
             toolStripMenuItem6.Text = "standar";
+            toolStripMenuItem6.Click += toolStripMenuItem6_Click;
             // 
             // toolStripMenuItem7
             // 
             toolStripMenuItem7.BackColor = Color.Orange;
             toolStripMenuItem7.Name = "toolStripMenuItem7";
-            toolStripMenuItem7.Size = new Size(207, 28);
+            toolStripMenuItem7.Size = new Size(224, 28);
             toolStripMenuItem7.Text = "Cientifica";
+            toolStripMenuItem7.Click += toolStripMenuItem7_Click;
             // 
             // toolStripMenuItem8
             // 
             toolStripMenuItem8.BackColor = Color.Orange;
             toolStripMenuItem8.Name = "toolStripMenuItem8";
-            toolStripMenuItem8.Size = new Size(207, 28);
+            toolStripMenuItem8.Size = new Size(224, 28);
             toolStripMenuItem8.Text = "Programable";
             // 
             // panel6
@@ -3202,6 +3204,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1724, 720);
             Controls.Add(panel4);
+            Controls.Add(panel2);
             Controls.Add(panel1);
             ForeColor = Color.White;
             Location = new Point(590, 0);
@@ -3211,14 +3214,14 @@
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            menuStrip2.ResumeLayout(false);
+            menuStrip2.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             menuStrip3.ResumeLayout(false);
             menuStrip3.PerformLayout();
-            menuStrip2.ResumeLayout(false);
-            menuStrip2.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             menuStrip1.ResumeLayout(false);
