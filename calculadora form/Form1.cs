@@ -68,11 +68,19 @@ namespace calculadora_form
             h = this.Height;
         }
 
-        public void tex(string tex)
+        public void tex1(string tex)
         {
             if (textBox1.Text.Length < 16)
             {
                 textBox1.Text = textBox1.Text + tex;
+            }
+
+        }
+        public void tex2(string tex)
+        {
+            if (textBox2.Text.Length < 16)
+            {
+                textBox2.Text = textBox2.Text + tex;
             }
 
         }
@@ -84,12 +92,12 @@ namespace calculadora_form
 
         private void rjButton18_Click(object sender, EventArgs e)
         {
-            tex("1");
+            tex1("1");
         }
 
         private void rjButton19_Click(object sender, EventArgs e)
         {
-            tex("2");
+            tex1("2");
         }
 
         private void rjButton8_Click(object sender, EventArgs e)
@@ -105,67 +113,67 @@ namespace calculadora_form
 
         private void rjButton17_Click(object sender, EventArgs e)
         {
-            tex("3");
+            tex1("3");
         }
 
         private void rjButton15_Click(object sender, EventArgs e)
         {
-            tex("4");
+            tex1("4");
         }
 
         private void rjButton16_Click(object sender, EventArgs e)
         {
-            tex("5");
+            tex1("5");
         }
 
         private void rjButton20_Click(object sender, EventArgs e)
         {
-            tex("6");
+            tex1("6");
         }
 
         private void rjButton3_Click(object sender, EventArgs e)
         {
-            tex("7");
+            tex1("7");
         }
 
         private void rjButton13_Click(object sender, EventArgs e)
         {
-            tex("8");
+            tex1("8");
         }
 
         private void rjButton14_Click(object sender, EventArgs e)
         {
-            tex("9");
+            tex1("9");
         }
 
         private void rjButton22_Click(object sender, EventArgs e)
         {
-            tex(".");
+            tex1(".");
         }
 
         private void rjButton25_Click(object sender, EventArgs e)
         {
-            tex("+");
+            tex1("+");
         }
 
         private void rjButton21_Click(object sender, EventArgs e)
         {
-            tex("0");
+            tex1("0");
         }
 
         private void rjButton24_Click(object sender, EventArgs e)
         {
-            tex("-");
+            tex1("-");
         }
 
         private void rjButton23_Click(object sender, EventArgs e)
         {
-            tex("*");
+            tex1("*");
         }
 
         private void rjButton2_Click(object sender, EventArgs e)
         {
-            tex("/");
+            tex1("/");
         }
 
         private void rjButton29_Click(object sender, EventArgs e)
@@ -179,6 +187,8 @@ namespace calculadora_form
         {
             textBox1.Text = "";
         }
+
+        
     }
     public class RJButton : Button
     {
